@@ -2,9 +2,17 @@
 
 Pullframe is a macOS desktop app for pulling usable video, audio, subtitles, thumbnails, chapters, and metadata from YouTube links. It is built with Electron, React, TypeScript, yt-dlp, and ffmpeg.
 
-Website: [pullframe.app](https://pullframe.app)
+Official website: [https://pullframe.app](https://pullframe.app)
 
-Official downloads: [pullframe.app/download](https://pullframe.app/download)
+Official downloads: [https://pullframe.app/download](https://pullframe.app/download)
+
+Release notes: [https://pullframe.app/release-notes](https://pullframe.app/release-notes)
+
+Why Pullframe exists: [https://pullframe.app/why-pullframe](https://pullframe.app/why-pullframe)
+
+ProRes workflow: [https://pullframe.app/prores-youtube-downloader-mac](https://pullframe.app/prores-youtube-downloader-mac)
+
+Acceptable use: [https://pullframe.app/acceptable-use](https://pullframe.app/acceptable-use)
 
 ## Features
 
@@ -65,6 +73,10 @@ The app still checks the official update feed. If you install an official update
 ## Privacy
 
 Pullframe avoids sending source URLs, local paths, filenames, media titles, raw logs, license keys, hostnames, usernames, serials, clipboard contents, and window titles in telemetry. Feedback diagnostics show a summary before submission.
+
+## Transparency
+
+Pullframe is open source so editors, archivists, and internal media teams can inspect what the app does before trusting it in a professional workflow. The paid build is for signed downloads, lifetime updates, license recovery, and support. Source builds remain available for contributors and self-builders.
 
 ## License
 
