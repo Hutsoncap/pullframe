@@ -1,0 +1,44 @@
+appId: io.htsn.pullframe
+productName: Pullframe
+artifactName: ${productName}-${version}-${arch}.${ext}
+directories:
+  buildResources: build
+  output: dist
+
+extraResources:
+  - from: "resources/bin/darwin-${arch}/"
+    to: "bin/"
+    filter:
+      - "**/*"
+
+mac:
+  category: public.app-category.utilities
+  target:
+    - target: dmg
+      arch:
+        - arm64
+    - target: zip
+      arch:
+        - arm64
+  hardenedRuntime: true
+  notarize: true
+  entitlements: build/entitlements.mac.plist
+  entitlementsInherit: build/entitlements.mac.plist
+
+dmg:
+  contents:
+    - x: 170
+      y: 150
+      type: file
+    - x: 380
+      y: 150
+      type: link
+      path: /Applications
+
+publish:
+  provider: generic
+  url: https://nexus.htsn.io/repository/raw-hosted/pullframe/stable/
+
+files:
+  - "!resources/**"
+  - "!scripts/**"

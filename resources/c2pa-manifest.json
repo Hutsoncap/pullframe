@@ -1,0 +1,26 @@
+{
+  "claim_generator": "Pullframe/1.0.0",
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.transcoded",
+            "softwareAgent": {
+              "name": "Pullframe",
+              "version": "1.0.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "stds.schema-org.CreativeWork",
+      "data": {
+        "@type": "VideoObject",
+        "description": "Processed by Pullframe"
+      }
+    }
+  ]
+}

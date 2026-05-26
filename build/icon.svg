@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Pullframe">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0b0a23"/>
+    </linearGradient>
+    <linearGradient id="pf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="fAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(512 512) scale(0.8) translate(-512 -512)">
+    <rect x="0" y="0" width="1024" height="1024" rx="232" ry="232" fill="url(#tile)"/>
+    <rect x="1" y="1" width="1022" height="1022" rx="231" ry="231" fill="none" stroke="rgba(165,180,252,0.18)" stroke-width="2"/>
+    <text x="492" y="694" text-anchor="middle"
+          font-family="Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+          font-weight="900" letter-spacing="-34"
+          ><tspan font-size="585" fill="url(#pf)">P</tspan><tspan font-size="430" dx="34" dy="-34" fill="url(#fAccent)">f</tspan></text>
+  </g>
+</svg>
